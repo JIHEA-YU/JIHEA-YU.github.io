@@ -1,6 +1,6 @@
 # Jihea Yu — Research Profile
 
-Personal research-profile website for Jihea Yu, built with React, Vinext, and Sites hosting.
+Personal research-profile website for Jihea Yu. The published site is deployed on Vercel as a static website.
 
 ## Site structure
 
@@ -46,4 +46,10 @@ npm run build
 
 ## Redeploy
 
-After committing and pushing changes, ask Codex to deploy the current version of this site. The hosting setup is already connected to this repository; deployment credentials are managed securely by the hosting service and are not kept in this project.
+The Vercel deployment uses the files in `vercel-static/`. After changing the published site, run:
+
+```powershell
+npx vercel --prod
+```
+
+The first run may ask you to select your Vercel account or project. Vercel keeps the deployment credentials outside this repository.
